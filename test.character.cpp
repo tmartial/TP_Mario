@@ -33,7 +33,7 @@ int main (){
 		std::cout << "Le pilote " << i << " est un " << pilotes[i]->WhatAmI() << endl;
 	}
 
-	for (int i = 0; i < 3; ++i)
+	 for (int i : {0, 1, 2})
 	{
 		pilotes[i]->Accelerate();
 	}

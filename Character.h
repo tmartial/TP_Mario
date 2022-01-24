@@ -32,7 +32,7 @@ public:
 	//Accesseurs (=getter function)
 	/*inline*/
 	inline float speed() const;
-}; // Ne pas oublier le point virgule à la fin pour une classe
+};
 
 inline float Character::speed() const {
 	return speed_;

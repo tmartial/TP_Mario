@@ -10,7 +10,6 @@ Character::Character(){
 Character::~Character() {
 } //Rien a mettre dedans
 
-//Accesseur (=getter function) en lecture simple
 
 void Character::Accelerate(){
   if (speed_< max_speed_){
